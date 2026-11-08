@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="O`_!U3siaVBJ28gZDW*[" x="2" y="-181"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="record_startRecording" id="Wahd$ZMw$%9?M(Se31yz"><field name="mode">record.BlockingState.Blocking</field></block></statement></block><block type="device_button_event" id="Jl{R3Y)k;Mdx*qcxCgHO" x="369" y="-177"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_if" id="LaeiYbb!rBsXyWUMLjV="><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="MSsMwR[xF~cocrc(74]}"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="Hol^PuqLI4ey=]/-Gdh("></block></value><statement name="DO0"><block type="device_show_leds" id=".zP:_Z*;{ZEWv(+93ytk"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="VM+O+oHsy`{-m6%y|=OH"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement></block></statement></block><block type="input_logo_event" id=".uz(zmC{23WA=0g#~MV{" x="0" y="0"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="record_playAudio" id="I.?A5vJZjk=Rl0!rLZ7z"><field name="mode">record.BlockingState.Blocking</field></block></statement></block></xml>
